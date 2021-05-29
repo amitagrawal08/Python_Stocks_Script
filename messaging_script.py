@@ -3,8 +3,8 @@ import json
 
 URL = 'https://www.sms4india.com/api/v1/createSenderId'
 
-apikey='YEJRRZMY0J688Q12WTS6E9K4NHDLXZIG'
-secretkey='ZOUDXYB1652FU858'
+apikey='xxxxxxxxxx'
+secretkey='xxxxxxxxxx'
 useType='prod'
 senderId='SMSIND'
 
