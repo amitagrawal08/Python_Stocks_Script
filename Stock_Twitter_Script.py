@@ -13,10 +13,10 @@ print(Input_list)
 
 output = []
 
-CONSUMER_KEY="HIgeXNsl8uVMWKwGZmcTRnygz"
-CONSUMER_SECRET="nyeodxBad7kPsxlNqXMbvKSZpIHolp2ghVgfNx4hzbGoZJym6E"
-ACCESS_TOKEN="467586857-O6VdHaNXBkt3MrdaPVLQSnJQJAePO0Q1bS608Lw5"
-ACCESS_TOKEN_SECRET="xVYczsZrHaHlHuVWbTMnQ7phlIVFl2quR5L6RGUDCAweJ"
+CONSUMER_KEY="xxxxxxxxxxxxxx"
+CONSUMER_SECRET="xxxxxxxxxxxxxx"
+ACCESS_TOKEN="xxxxxxxxxx-xxxxxxxxxxxxxx"
+ACCESS_TOKEN_SECRET="xxxxxxxxxxxxxx"
 
 # Authenticate to Twitter
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
@@ -90,8 +90,8 @@ from twilio.rest import Client
 # Your Account Sid and Auth Token from twilio.com/console
 # DANGER! This is insecure. See http://twil.io/secure
 
-account_sid = 'AC2a6ee3c21e8cae6a6d11da1a16b6f464'
-auth_token = 'eb0d8929d0d45d8ae88f17abfee7ae28'
+account_sid = 'xxxxxxxxxxxxxxx'
+auth_token = 'xxxxxxxxxxxxxxx'
 client = Client(account_sid, auth_token)
 
 # get response
